@@ -176,7 +176,9 @@ form br {
   font-size: 0.9rem;
   padding: 0.5rem 0.75rem;
   cursor: pointer;
-  transition: transform 120ms ease, filter 120ms ease;
+  transition:
+    transform 120ms ease,
+    filter 120ms ease;
 }
 
 .task-button:hover {
@@ -189,7 +191,7 @@ form br {
 }
 
 .button-danger {
-  background: linear-gradient(140deg, #b42318, #901f1b);
+  background: linear-gradient(140deg, #ff00cc, #77045e);
 }
 
 .empty-tasks {
